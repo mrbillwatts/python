@@ -1,0 +1,9 @@
+def main():
+    size=int(input("What is the size of the staircase? "))
+    printStaircase(size)
+
+def printStaircase(sizeOfStairs):
+    for i in range(1,sizeOfStairs+1,1):
+        print(" " * (sizeOfStairs-i), "X" * i)
+
+main()
